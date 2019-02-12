@@ -12,6 +12,13 @@ pool:
 # adding a comment to try out the yml stuff
 
 steps:
+# CocoaPods
+# CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. This task runs 'pod install'.
+- task: CocoaPods@0
+  inputs:
+    #workingDirectory: # Optional
+    forceRepoUpdate: 
+    #projectDirectory: # Optional
 - task: Xcode@5
   inputs:
     actions: 'build'
