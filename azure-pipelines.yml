@@ -9,6 +9,8 @@ trigger:
 pool:
   vmImage: 'macOS-10.13'
 
+# adding a comment to try out the yml stuff
+
 steps:
 - task: Xcode@5
   inputs:
